@@ -19,12 +19,12 @@ def random_predict(number: int = 1) -> int:
     high = 100
     while low <= high:
         count += 1
-        middle = int((low + high)/2)
+        middle = int((low + high)/2) # get the midpoint
         if middle == number: 
             break
-        elif middle < number: 
+        elif middle < number: # if the middle number is less than the number, then shift the starting position 
             low = middle + 1
-        elif middle > number: 
+        elif middle > number: # if the middle number is greater than the number, then shift the end position 
             high = middle - 1
     return count
 
