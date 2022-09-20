@@ -1,6 +1,7 @@
 # game_v2
 Игра угадай число
 =======
+[![Python 3.9.9](https://img.shields.io/badge/python-3.9.9-blue.svg)](https://www.python.org/downloads/release/python-399/)
 # Проект 0. Угадай число
 
 ## Оглавление  
