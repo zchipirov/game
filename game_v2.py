@@ -8,7 +8,6 @@ import numpy as np
 def random_predict(number: int = 1) -> int:
     """I'm use the binary search algorithm. He is the very fast and simple
     
-
     Args:
         number (int, optional): Hidden number. Defaults to 1.
 
